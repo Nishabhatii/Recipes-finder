@@ -1,6 +1,7 @@
 # Recipes-finder
 # 🍽️ Recipe Finder
 
+
 A simple and responsive web application to search and explore recipes using a public API. Users can search for meals, view details, and navigate easily with a clean UI.
 
 ## 🚀 Features
