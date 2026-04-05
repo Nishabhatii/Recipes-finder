@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="Index.css" />
+</head>
+
+<body>
+
+  <div class="recipe-container">
+    <h2> Recipe Finder</h2>
+
+   <div class="search-box" id="searchBox">
+  <input type="text" id="searchInput" placeholder="Want to cook Idli?" />
+  <button id="searchBtn" onclick="getRecipes()">Search</button>
+  <button class="back-btn" onclick="resetSearch()">Back</button>
+</div>
+
+    <div id="recipeList" class="recipe-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
